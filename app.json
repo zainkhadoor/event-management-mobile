@@ -21,15 +21,19 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.eventmanagementmobile"
+      "package": "com.anonymous.eventmanagementmobile",
+      "usesCleartextTraffic": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "your-expo-project-id"
+        "projectId": "996e9f93-3c3c-4d2b-b81b-cd4f94d664db"
       }
-    }
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ]
   }
 }
